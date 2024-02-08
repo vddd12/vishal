@@ -1,0 +1,184 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    box-shadow: 1px 3px 5px black;
+    width:80%;
+    margin:auto;
+}
+
+header{
+    height:100px;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    /* background-color: red; */
+    /* float:right; */
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header ul  li{
+    /* background-color: rgb(132, 0, 255); */
+    /* display: inline-block; */
+    margin:10px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+
+}
+
+header ul li:hover{
+
+    background-color: rgb(179, 135, 220);
+  
+
+}
+.section{
+    align-items: 500px;
+    position:relative;
+    top:150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* line-height: 27px; */
+
+}
+
+
+
+/* .left{
+    float:left;
+    border: 1px solid black;
+    
+}
+
+.right{
+    float:right;
+} */
+
+.right img{
+    border-radius: 50%;
+
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+
+.burg{
+    visibility: hidden;
+}
+
+
+
+.logo span{
+
+    color:rgb(202, 211, 30);
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+
+@media screen and (max-width:700px) {
+    .section .right img{
+
+        width:200px;
+        height:200px;
+           
+          }
+
+
+}
+@media screen and (max-width:600px) {
+
+    .burg{
+    visibility: visible;
+    }
+  
+header{
+    position:relative;
+    
+}
+
+    /* header ul{
+        display: block;
+
+        position: absolute;
+
+        top:70px;
+        right:0px;
+
+        transform: translateX(110px);
+
+    } */
+
+    
+    header ul{
+        display: block;
+
+        position: absolute;
+
+        top:88px;
+        right:0px;
+
+        transform: translateX(160px);
+
+        opacity: 0.7;
+
+        width:80px;
+
+    }
+
+    header ul li{
+
+        margin-left: 0px;
+        font-size: small;
+        /* color: rgb(215, 42, 42); */
+        /* background-color: aquamarine; */
+    }
+
+  .section{
+    display: block;
+
+  }
+
+  .section .left{
+    
+    /* position:relative; */
+  
+    text-align: center;
+ 
+   }
+
+  .section .right{
+
+   position:relative;
+   top:40px;
+   /* left:70px; */
+   text-align: center;
+
+  }
+
+  .section .right img{
+
+ width:130px;
+ height:130px;
+    
+   }
+    
+
+   
+}
+
+
+
